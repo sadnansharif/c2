@@ -1,0 +1,64 @@
+.flex-section {
+    width: 100%;
+    padding: 80px 0px;
+
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.flex-box {
+    height: 65vh;
+    border: 5px solid rgb(110, 65, 6);
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+
+}
+
+.box {
+    width: 160px;
+    height: 160spx;
+    background: rebeccapurple;
+    margin: 10px;
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    line-height: 160px;
+}
+
+.box1 {
+    padding: 0px 46px;
+}
+
+.flex-icon {
+    text-align: center;
+}
+
+.flex-icon ul {
+    margin: 0;
+    padding: 0;
+}
+
+.flex-icon ul li {
+    display: inline-block;
+    list-style-type: none;
+    margin-right: 12px;
+    font-size: 25px;
+    width: 55px;
+    height: 55px;
+    background: rgb(210, 243, 183);
+    line-height: 55px;
+    border-radius: 40px 0px;
+    transition: 0.7s;
+}.flex-icon ul li:hover {
+    background: rgb(155, 214, 211);
+    border-radius: px 40px;
+    transition: 0.7s;
+}
+
+.flex-icon ul li a {
+    color: hwb(175 0% 39%);
+}
